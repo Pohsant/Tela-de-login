@@ -17,7 +17,7 @@
             <li>Página responsiva</li>
         </ul>
         <h4 style="font-style: italic;">Responsivel Gif</h4>
-        <img src="https://cdn.discordapp.com/attachments/953345636533698580/988264782547255337/site.gif">
+        <img src="https://cdn.discordapp.com/attachments/953345636533698580/988268280978481172/Tela_de_login.gif">
         <h4>Proximas atualizações:</h4>
         <ul>
             <li>Web page</li>
