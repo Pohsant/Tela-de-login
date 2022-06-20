@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="first-side">
+        <div class="box">
+            <h1 id="first-h1">Bem Vindo de volta!</h1>
+            <p id="p1">Para continuar conectado</p>
+            <p id="p2" >por favor inicie com suas informações pessoais!</p>
+            <a href="index.html" target="_blank"><button>LOGIN</button></a>
+        </div><!--box-->
+    </main><!--firt-side-->
+    <img src="/imagem/lua.png" alt="lua" id="lua" onclick="changeMode">
+    <img src="/imagem/sol.png" alt="sol" id="sol" onclick="changeMode">
+    <main class="second-side">
+        <h1 id="second-h1">Criar conta</h1>
+        <div class="icons">
+            <div class="icon1"><a href="https://github.com/"><img src="imagem/github.png" alt="Github"></a></div>
+            <div class="icon2"><a href="https://www.google.com.br/"><img src="imagem/google.png" alt="Google"></a></div>
+            <div class="icon3"><a href="https://www.instagram.com/?hl=pt-br"><img src="imagem/instagram.png" alt="Instagram"></a></div>
+            <div class="icon4"><a href="https://www.linkedin.com/"><img src="imagem/linkedin.png" alt="Linkedin"></a></div>
+        </div><!--icons-->
+        <p id="p3">Crie sua conta ou utilize seu e-mail para registrar:</p>
+        <div class="inputs">
+            <input type="text" name="" id="inptext" placeholder="Nome" required>
+            <input type="email" name="" id="inpemail" placeholder="E-mail" required>
+            <input type="password" name="" id="inppass" placeholder="Senha">
+        </div><!--inputs-->
+        <input type="button" value="REGISTRAR" id="second-btn">
+    </main><!--second-side-->
+    <script src="assets/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+body{
+    display: flex;
+}
+
+/* PRIMEIRA PARTE*/
+.first-side{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 69, 182);
+    transition: 400ms;
+}
+
+.box{
+    text-align: center;
+}
+
+.box h1, p{
+    padding: 4px;
+}
+.box p{
+    font-size: 20px;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 20px;
+    background: rgb(127, 69, 182);
+    transition: 1s;
+}
+
+button:hover{
+    background: rgb(107, 55, 175);
+}
+
+
+/* SEGUNDA PARTE */ 
+.second-side{
+    width: 60%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+}
+
+.second-side h1{
+    color: rgb(127, 69, 182);
+}
+
+
+.icons img{
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+}
+
+.icons{
+    display: flex;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;       
+}
+
+p{
+    font-size: 18px;
+}
+
+.inputs input[type=text]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 25px;
+    background: rgb(243, 241, 241);
+    border: none;
+    outline: none;
+}
+
+.inputs input[type=email]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 25px;
+    background: rgb(243, 241, 241);
+    border: none;
+    outline: none;
+}
+
+.inputs input[type=password]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 25px;
+    background: rgb(243, 241, 241);
+    border: none;
+    outline: none;
+
+}
+
+input[type=button]{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 20px;
+    background: rgb(127, 69, 182);
+    transition: 1s;
+}
+
+input[type=button]:hover{
+    background: rgb(107, 55, 175);
+}
+
+
+
+#inptext{
+    background-image: url('/imagem/user.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+         
+}
+
+#inpemail{
+    background-image: url('/imagem/email.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+
+}
+
+#inppass{
+    background-image: url('/imagem/senha.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;   
+ 
+}
+
+/* MODO DARK MODE */
+
+#lua{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: absolute; 
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#lua.dark-mode{
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#sol{
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#sol.dark-mode{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: absolute; 
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.first-side.dark-mode{
+    background-color: rgb(63, 18, 18);
+}
+
+.second-side.dark-mode{
+    background-color: rgb(81, 31, 31);
+}
+
+button.dark-mode{
+    background-color: black;
+    color: azure;
+}
+
+input[type=button].dark-mode{
+    background-color: black;
+    color: azure;
+}
+
+input[type=button].dark-mode:hover{
+    background-color: rgb(81, 31, 31);
+}
+
+#first-h1.dark-mode{
+    color: azure;
+}
+
+#second-h1.dark-mode{
+  color: #fff;
+}
+
+#p1.dark-mode{
+    color: azure;
+}
+
+#p2.dark-mode{
+    color: azure;
+}
+#second-button{
+    color: azure;
+}
+#p3{
+    color: azure;
+}
+
+/* RESPONSIVIDADE */ 
+
+@media screen and (max-width: 1080px){
+
+    body{
+        display: block;
+    }
+
+    .first-side{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(127, 69, 182);
+        transition: 400ms;
+    }
+
+    .second-side{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 400ms;
+    }
+
+    #lua{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 20px;
+        cursor: pointer;
+    }
+    
+    #lua.dark-mode{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 20px;
+        cursor: pointer;
+        display: none;
+    }
+
+    #sol{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 20px;
+        cursor: pointer;
+        display: none; 
+    }
+    
+    #sol.dark-mode{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 20px;
+        cursor: pointer; 
+        display: flex;
+    }
+}
+
