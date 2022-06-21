@@ -9,7 +9,7 @@
     </head>
     <body>
         <h1 style="text-align: center;">Página inicial</h1>
-        <img src="https://cdn.discordapp.com/attachments/953345636533698580/988258087238500382/site.gif" style="margin-top: 25px;">
+        <img src="https://cdn.discordapp.com/attachments/953345636533698580/988914877273874462/Tela_de_login.gif" style="margin-top: 25px;">
         <h3 style="font-style: italic;">About:</h3>
         <ul>
             <li>Página de login</li>
@@ -20,9 +20,11 @@
         <img src="https://cdn.discordapp.com/attachments/953345636533698580/988268280978481172/Tela_de_login.gif">
         <h4>Proximas atualizações:</h4>
         <ul>
-            <li>Web page</li>
-            <li>Página de login</li>
-            <li>Backend implementation</li>
+        <h5 style="font-style: italic;">Pagina de login</h5>
+        <img src="https://cdn.discordapp.com/attachments/953345636533698580/988919051952750652/login.gif">
+        <ul>
+        <li> Incrementação da pagina de login </li>
+        <li> Modo dark-mode </li>
         </ul>
         <h4 style="text-align:center;">Feito por: Matheus Santiago de Melo Barbosa</h2>
     </body>
