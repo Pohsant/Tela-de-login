@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylelogin.css">
+    <title>Tela de Login</title>
+
+</head>
+<body>
+    <main class="principal">
+        <img src="imagem/lua.png" alt="lua" id="lua" onclick="changeMode">
+        <img src="imagem/sol.png" alt="sol" id="sol" onclick="changeMode">
+        <div class="box">
+            <h1 id="fh1">Conecte-se para continuar </h1>
+            <div class="icons">
+                <div class="icon1"><a href="https://github.com/"><img src="imagem/github.png" alt="Github"></a></div>
+                <div class="icon2"><a href="https://www.google.com.br/"><img src="imagem/google.png" alt="Google"></a></div>
+                <div class="icon3"><a href="https://www.instagram.com/?hl=pt-br"><img src="imagem/instagram.png" alt="Instagram"></a></div>
+                <div class="icon4"><a href="https://www.linkedin.com/"><img src="imagem/linkedin.png" alt="Linkedin"></a></div>
+            </div><!--icones-->
+            <p id="p1">Ou entre com seu usuario</p>
+            <div class="inputs">
+                <input type="email" name="E-mail" id="inpemail" placeholder="E-mail" required>
+                <input type="password" name="Senha" id="inppass" placeholder="Senha" required>
+            </div><!--iNPUTS-->
+            <a href="" id="a">Esqueceu sua senha?</a>
+            <input type="button" value="LOGIN" id="btn">
+        </div>
+    </main><!--principal-->
+    <script src="assets/login.js"></script>
+</body>
+</html>
