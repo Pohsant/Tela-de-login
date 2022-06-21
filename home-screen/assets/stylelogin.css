@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+body{
+    display: flex;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(127, 69, 182);
+    text-align: center;
+}
+
+p{
+    color:rgb(92, 46, 142);
+    font-size: 15px;
+    text-align: center;
+}
+.icons img{
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+ 
+}
+
+.inputs input[type=email]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 25px;
+    background: rgb(243, 241, 241);
+    border: none;
+    outline: none;
+}
+
+.inputs input[type=password]{
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 25px;
+    background: rgb(243, 241, 241);
+    border: none;
+    outline: none;
+
+}
+
+#inpemail{
+    background-image: url('/imagem/email.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+
+}
+
+#inppass{
+    background-image: url('/imagem/senha.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;   
+ 
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+input[type=button]{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 20px auto;
+    background: rgb(127, 69, 182);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    
+}
+
+input[type=button]:hover{
+    background: rgb(107, 55, 175);
+}
+
+/* MODO DARK MODE */
+
+#lua{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#lua.dark-mode{
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    right: 0;
+    top: 0;
+    margin: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#sol{
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    right: 0;
+    top: 0;
+    margin: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#sol.dark-mode{
+    width: 30px;
+    height: 30px;
+    top: 0;
+    display: flex;
+    position: absolute; 
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.principal.dark-mode{
+    width: 100% ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(81, 31, 31);
+    transition: 1s;
+
+}
+
+h1.dark-mode{
+    color: azure;
+    text-align: center;
+}
+
+p.dark-mode{
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+}
+
+a.dark-mode{
+    color: azure;
+}
+
+input[type=button].dark-mode{
+    background-color: black;
+    color: azure;
+}
+
+input[type=button].dark-mode:hover{
+    background-color: rgb(81, 31, 31);
+    color: azure;
+}
